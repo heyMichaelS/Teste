@@ -42,8 +42,8 @@ class TestCalculadora:
     def test_divisao_de_dois_numeros_positivo(self):
         #GIVEN
         numero_1 = 2
-        numero_2 = 0
-        valor_esperado = 0
+        numero_2 = 2
+        valor_esperado = 1
 
         #WHEN 
         valor_resultante = Calculadora.divisao(numero_1, numero_2)
