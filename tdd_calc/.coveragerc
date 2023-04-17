@@ -1,0 +1,9 @@
+[run]
+source = codigo
+
+[report]
+exclude_lines =
+    def str
+
+[html]
+directory = relatorio_cobertura_html
